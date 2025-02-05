@@ -1,0 +1,312 @@
+2025-02-05 00:23:56,300 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 51421 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 00:23:56,359 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 00:23:56,359 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 00:23:56,827 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 00:23:56,844 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-02-05 00:23:57,696 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 00:23:57,697 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 00:23:57,697 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 00:23:57,841 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 00:23:58,050 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 00:23:58,074 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 00:23:58,155 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 00:23:58,206 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 00:23:58,207 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 00:23:58,643 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 00:23:58,659 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 00:23:59,120 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 00:23:59,125 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 00:23:59,146 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 00:23:59,149 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2025-02-05 00:23:59,152 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2025-02-05 00:23:59,155 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2025-02-05 00:25:55,688 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 51700 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 00:25:55,707 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 00:25:55,707 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 00:25:56,325 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 00:25:56,340 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-02-05 00:25:57,053 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-05 00:25:57,054 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 00:25:57,055 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 00:25:57,184 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 00:25:57,371 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 00:25:57,397 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 00:25:57,475 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 00:25:57,522 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 00:25:57,523 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 00:25:57,846 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 00:25:57,858 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 00:25:58,008 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 00:25:58,014 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 00:25:58,612 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 00:25:58,634 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 00:25:58,634 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 00:25:58,634 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 00:25:58,634 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 00:25:58,659 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 00:25:58,659 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 00:25:58,659 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 00:25:58,659 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 00:25:58,680 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 00:25:58,684 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 00:25:59,055 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c544c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@4db728df, org.springframework.security.web.header.HeaderWriterFilter@194224ca, org.springframework.security.web.csrf.CsrfFilter@7d1cb59f, org.springframework.security.web.authentication.logout.LogoutFilter@3d53e876, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3982206a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d37aa0f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22e813fc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@59371066, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cdfa824, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@318e3942, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@433d93e7, org.springframework.security.web.session.SessionManagementFilter@350f18a6, org.springframework.security.web.access.ExceptionTranslationFilter@4e8d9bb6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@191e654]
+2025-02-05 00:25:59,117 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-02-05 00:25:59,143 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.782 seconds (JVM running for 4.779)
+2025-02-05 00:27:20,045 INFO o.a.t.u.h.p.Cookie [http-nio-8080-exec-1] A cookie header was received [:state=true; userName=Code%20Ninjas; accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbXM1QGdtYWlsLmNvbSIsImlhdCI6MTczODYyMzA5NCwiZXhwIjoxNzM4NjI2Njk0fQ.al97pQpM3FyGcz5IXqXS_u39DAew--KNabF2EhH4RBA; refreshToken=6viUx25LhkpiBBJAZXlUAyAwmQK91Vr5qQZpLfeTpEOMVJZFl56ZpjmD8syjZvmk; tokenExpiredAt=1738626694400; _ga_JL2CM18CEE=GS1.1.1738623093.129.1.1738623113.0.0.0; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..H9pT-G1dReA4ag2N.X-SpP7fNOv6ZmY9REcFglnurQJ9wXFLXVQjcicqI8qqUFwfpYx8y6StJbG6Z5jeIx3YhhkwiqkW13Ow7EeUAcyGUjm79bZCDoAy2FK__OH7gGAXTRoRFdcpFSwkX8Drknj2X5UAOK2ZB3VtzNHnCik_shJ_7mjGFJGonPbYH6xtbc1PSbpDFMQmBW0X5jbBQPietbfG7OHZuUsigF1bpoPx3GIpL0wehUEIz_-9qrNC0ttBBGhQiUArlEPfx2gjr9s8RlKKaKbe-RsOuP5vbhqcYwpPp9As-rkVTwNutXixccL2_tk_X4GuSE2SOfbgfh2QMbatogD86mOdQkBVpSF85TIkp197U15V2Sg-5x_iBf_MIrNOEIFrnZ7rnqe6BQXEbQ1cfJR1hOYgfeRWr8SBmZRDzYar_IAOwCVUxrdHOsMnCWZ0iP9LZnoAUocXbwtSL8sOh-B5sjrZVe3Ul5JWum5HuInMpedDjLmbtdfxXszhvC1AGE73LbFy1aoozcALyOG2GCv1tUU6fvGb6fOPsSLNDWxdzJHLRZhLIyo8OI2eo8jwjBbGjCrBarCQJPbdTgEoVZjkkn4dY957ifMFYJsZXl_X49B1kToibPYZI2T2R4qrJ1ag29DqxzZxzhFhdL37sUzDJZyl3C_dlILHc6oiqBUYY3Ua-Z2HOYbHvCRcHfCTgj7mhZ_rcqLPikzUO44KNYgCZKRcPnr-tdDakx9QA5F9U9GsfYKMRQKE_qLvHic1HXp_e0gnw7woVpaLfgwdHSVAh7u9XrAuLhJ-tFRlanO8Pmq7Wf77MhDrheLhflF6_ZfyAYiP_fCyG3EfrL5KZJnIgb8JFWq2A6C26E-fWP2NT1ITbMvnoy5Gk3zRhP38l6Jl1SpT9WLeqs07YvbDKV3r4Ra5XLcgsK7WhKMEqHbuNdHXqCJjtT7_yjGjWiczGIYQDkZXQTU8SqoA5IBlHl-OaKlLWdruLpuWoWa3sa9QjB-Wm26r_pivXD-u97duu4NvgmSrxU564MiSxJLS1Z9em3Nnrn1fly3W2klnvHKn2GSALetxdY4tTqjwUx_7HSHrno5wjmsHkwURchuTlK1JDoCPVthkoR6hD0AoA90dwqC02HAwK6Q89aFUJs59rAUGoqZyoNOJPwDU51JzFpocqrsr-SQgUooVpZAuqLZCpucnKtiE3yoS5_zSLOYqjCRP3CfrYXSd5fjJbtb5cYXnkNSuDmo-nifXbeHxmZL85sa-_qwRrFHifUacRer5W-QvHBd-iah-RCLdWdv4elBcEDjBMdmm3BqmBbAj18o9YczJ0JySI9Iu4LfxQ8a0R7rnxAWilFEmG3VlhtizpKsrNEHBG-igaxRTF56xbGqmSgA06B3k6Sk8ETjJ4-Ys7DuIA3vRQCbZ_TxxeJRD3T2zD_yTo8V2boKvNqRDgmrMnwIMM4-byO0_MZN-h2e_SaaIch2Jtowxy0vDSlkJMA_MqZxbhI-tf5Sr_yZs7VHCn7VwswbdUx4nFDhR0aQ69oWi-C_1kPfJ2FmIJ4jb5kJ7X4fbUaue48wHt1q3vOXdKhppZydNcBGptvmLfVCxPnQpMitcthj1yuo9mfqhwpdcXOLLBT2d5u6hKHT9nmbnlONSSR-dYBzWAhqRpf95mYkyRZ-CfEKF0nMECrzIeJkf0tee2rGTWpEF_06ELfFLX-IqOp5mesYfKRDcu5-Dd5pH9C_geFZWiMSe9V-n3PSP6M-Ji7tc_ggPl3CJpJG4V3-V-JZETF-B4lGLqtcAAJjKSktjfJK-tU5Wl9_fF-nksxuX6IBMLvwZF-YJMZcNtEFGY3Hho0e9l4KTW2fNm6K4To33R73ZZ-qzMb-cUcszr9J-vBc4qhn1-9HiasXXygXY.9htwEh3Khyy9wIpoj1oGpg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-02-05 00:27:20,068 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 00:27:20,068 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 00:27:20,074 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2025-02-05 00:29:44,532 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 00:29:44,549 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 00:29:44,560 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 00:30:22,265 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 52176 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 00:30:22,325 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 00:30:22,325 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 00:30:22,930 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 00:30:22,946 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-02-05 00:30:23,674 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8090"]
+2025-02-05 00:30:23,674 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 00:30:23,675 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 00:30:23,807 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 00:30:24,032 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 00:30:24,056 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 00:30:24,135 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 00:30:24,191 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 00:30:24,192 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 00:30:24,541 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 00:30:24,553 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 00:30:24,739 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 00:30:24,754 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 00:30:25,347 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 00:30:25,369 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 00:30:25,369 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 00:30:25,369 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 00:30:25,369 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 00:30:25,393 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 00:30:25,393 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 00:30:25,394 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 00:30:25,394 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 00:30:25,415 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 00:30:25,420 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 00:30:25,845 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59371066, org.springframework.security.web.context.SecurityContextPersistenceFilter@147c00aa, org.springframework.security.web.header.HeaderWriterFilter@2d07aacc, org.springframework.security.web.csrf.CsrfFilter@31b6b0c7, org.springframework.security.web.authentication.logout.LogoutFilter@1d8be7b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fe5c68b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2f99d8c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@48106381, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@419f0ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c94bd18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cdfa824, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c544c9, org.springframework.security.web.session.SessionManagementFilter@194224ca, org.springframework.security.web.access.ExceptionTranslationFilter@685e6a68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d4e99de]
+2025-02-05 00:30:25,916 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8090"]
+2025-02-05 00:30:25,944 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.955 seconds (JVM running for 4.955)
+2025-02-05 00:30:36,182 INFO o.a.t.u.h.p.Cookie [http-nio-8090-exec-1] A cookie header was received [:state=true; userName=Code%20Ninjas; accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbXM1QGdtYWlsLmNvbSIsImlhdCI6MTczODYyMzA5NCwiZXhwIjoxNzM4NjI2Njk0fQ.al97pQpM3FyGcz5IXqXS_u39DAew--KNabF2EhH4RBA; refreshToken=6viUx25LhkpiBBJAZXlUAyAwmQK91Vr5qQZpLfeTpEOMVJZFl56ZpjmD8syjZvmk; tokenExpiredAt=1738626694400; _ga_JL2CM18CEE=GS1.1.1738623093.129.1.1738623113.0.0.0; JSESSIONID=667617706B61039F9E1D859B0C20D7FF; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..AkeP13sX58-MVpEI.Wg2JIdOTHlpVoshT3oTEwAykx7zKw9tnkQkSPGb7I6pT4zpHIfk0Cg1ZOPFCYBqF0Gw2JqGotNLTcxvh8gm7itzZini4WmHrj2I3W6IVMULnTHyNAh37EDRTKW4_niyJmRJUcSu6praeIIhqA_hORojpLLlpg8RDlrSQ5grg0wAk0iuS2Civ5iAF6gOxd8Q7dbhf3uK8rDegdSW3WV2DSMonm1XvVA5MwqsINYihfRaMcmLJcrIZzXK2ViIToWpY1Er0pskRktpykzAXIpMHuDFfvIEB3Y_M5EJ4Hu2xYzwjpumO2Wrxu9moSWqTAm_Bcn0z6Vj5QMVfxe8qSmJBWnzbVA8zGdydxOxOIkiTzDj6qg8prY3QWNC-KC-c2opbyOEai0ft-ebFwWk3yGZykFcwcW1ikn5ttb1jIRYMNXNzonRwHukRqWV_uZkdjfh9Z6miyPUphQrgqw79psvuBRfAcClMRT4w4Nh0Eg_A1MIeRuEJGrruyk4lXZbxwG4z_KyhaoNJTFa9xPYt32X1mTuGsw2v_P5PuBeMYNL87Pi9II1E39lgAbdPJ9xpWhGT5k7pSQ1ux4g30RmpeEAcy4VpyKiEkMGhAnCOJzDv7KFS7DJQgXjkB6LEOPBrQUvr073fN5Yl4lTiGD43Nh6gE0VhutD_56Mh56i50pnKv4DuqqzwakEKXHXGa1ZXvrOPbEJWFGBfDerlEAN8bAFpF4VB3gN0XwqFssjJQKy75QdVlxUrivM1CbRAHs7vgH6fJoioDiQOf9qerKUZxyRJR6HtV3tHoUt_V-W3mbaJRGDRlPjChBrGXqF5MDnH0laIVs91Hhu97s53HTICei9fgT8F--mZ7MRH3O2_Cv0597ykspEE9UX85pW0C_TWqI1a45hV59JzwWsPPemPuaaL8nrUVABHd2QZ0iSxcwW5l3LDKkpdvdZ_2TKaz94m-o2mWd2aOFgSQYeNu0T0OB-ZBkFNgaQAtSxGe6F7rYwuzJloYLIvQxfu1ujAsnJX8qyH6K9v_UiMxPQDUDqsFfw3VDkuZg_XAwjBoykmFNKvil-tW3ORkgWmPySWTa4nX4JZEKWmJit3ROe86QG0mVswx3zTOqg4IpnvOFLFgoGjxhy3G3A78qYjzz1FDocaKLtXp5A0e12TFPRQAr3_iKBFnV6-eDxMS5-cap4htw4tyFIha9jGqdAhdLIm6vpwezin4jVpLCYZAswSrZZaDiQZ0qgj2-QPIF5KQjwwBGAnhBFQKqBwJmg-0T5qKvXomawXENv_DvXuWSUwBVxYyfMWc7qUHjdZDHd9Fyvdk4uESCU_NwRT4t6nxY3p2CWih0F8Ovv7_aTivHVgbEQ6QciUbfqHfwZWRco0AGP38OD6JgZ7rWI7FgMDiFnyYW2gaAmvdsoEDDH2h46OtGj50QoUn24LkjtyAXrdSaqgnixuZqK4mWicNxaB0n_IjGsLGu0LcvFZqBMv_vx8zt7PxsGeIJKlIZOd46tr1S4AmOy9ih6HClK5YM8YDarVsuTTexHZZDNrW7TUn6e2Tf-VMIdStmsfj5yKk5EhPUegHEznEBcgtAceHdqawos-RGDWy2_gMrs_u_i1IvDoyy6KbkT3CBxstbiurVBVWEiBblyFrvvUddHdB7fHyK-xBnXjatVLvlMDzGZjUq2DuT_udFE6kUzNoaM8cFBJVAuoVt3L6QLHkevK715IBxwPaXaTduTcqs7f9uNcTnijyCW9uMdB_m4fPj1NK-kqcmL1hf_T2rh5MKIbjutuKsXYxdYVq0dMbblIrbNgPeuRXEIfT5HcQe81_DH7Scf-uPYQEruB5jAH0uOONR15E41Bs5n4Hw8qFPuPriKHSgyHCgIwcm2DQGoCkq5ds2Opyxk.lSyzTbuCX4AM0_mn_9FQ6A] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-02-05 00:30:36,206 INFO o.a.c.c.C.[.[.[/] [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 00:30:36,207 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 00:30:36,213 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-1] Completed initialization in 6 ms
+2025-02-05 01:39:46,839 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m52s168ms).
+2025-02-05 02:49:09,864 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m23s31ms).
+2025-02-05 04:28:06,581 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h38m56s717ms).
+2025-02-05 05:48:12,237 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m5s656ms).
+2025-02-05 06:28:42,106 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m29s870ms).
+2025-02-05 08:09:57,738 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m15s632ms).
+2025-02-05 08:58:00,770 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m3s31ms).
+2025-02-05 10:31:23,469 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m22s700ms).
+2025-02-05 11:32:28,282 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m4s813ms).
+2025-02-05 12:49:22,008 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m53s726ms).
+2025-02-05 13:37:02,719 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m40s710ms).
+2025-02-05 13:38:09,369 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s650ms).
+2025-02-05 13:58:23,051 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s516ms).
+2025-02-05 14:39:12,057 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m49s8ms).
+2025-02-05 15:00:19,796 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m27s875ms).
+2025-02-05 15:55:37,490 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m17s695ms).
+2025-02-05 16:42:40,669 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m3s176ms).
+2025-02-05 17:28:46,558 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m5s892ms).
+2025-02-05 17:43:30,534 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m13s935ms).
+2025-02-05 18:15:20,389 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m49s854ms).
+2025-02-05 19:15:31,744 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11s356ms).
+2025-02-05 20:40:53,894 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m22s150ms).
+2025-02-05 21:07:11,389 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m17s495ms).
+2025-02-05 21:47:43,085 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m31s694ms).
+2025-02-05 22:12:54,832 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m11s749ms).
+2025-02-05 22:14:42,383 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:14:42,394 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 22:14:42,412 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 22:16:03,110 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 57045 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 22:16:03,173 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 22:16:03,174 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 22:16:03,770 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 22:16:03,786 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-02-05 22:16:04,494 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8090"]
+2025-02-05 22:16:04,495 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 22:16:04,496 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 22:16:04,547 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 22:16:04,832 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 22:16:04,856 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 22:16:04,934 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 22:16:04,982 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 22:16:04,984 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 22:16:05,324 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 22:16:05,343 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 22:16:05,597 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 22:16:05,604 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:16:06,244 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 22:16:06,269 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 22:16:06,270 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 22:16:06,270 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 22:16:06,270 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 22:16:06,294 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 22:16:06,294 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 22:16:06,294 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 22:16:06,294 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 22:16:06,316 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 22:16:06,320 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 22:16:06,587 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8090"]
+2025-02-05 22:16:06,610 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.789 seconds (JVM running for 4.894)
+2025-02-05 22:16:12,204 INFO o.a.t.u.h.p.Cookie [http-nio-8090-exec-1] A cookie header was received [:state=true; userName=Code%20Ninjas; accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbXM1QGdtYWlsLmNvbSIsImlhdCI6MTczODYyMzA5NCwiZXhwIjoxNzM4NjI2Njk0fQ.al97pQpM3FyGcz5IXqXS_u39DAew--KNabF2EhH4RBA; refreshToken=6viUx25LhkpiBBJAZXlUAyAwmQK91Vr5qQZpLfeTpEOMVJZFl56ZpjmD8syjZvmk; tokenExpiredAt=1738626694400; _ga_JL2CM18CEE=GS1.1.1738623093.129.1.1738623113.0.0.0; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..AkeP13sX58-MVpEI.Wg2JIdOTHlpVoshT3oTEwAykx7zKw9tnkQkSPGb7I6pT4zpHIfk0Cg1ZOPFCYBqF0Gw2JqGotNLTcxvh8gm7itzZini4WmHrj2I3W6IVMULnTHyNAh37EDRTKW4_niyJmRJUcSu6praeIIhqA_hORojpLLlpg8RDlrSQ5grg0wAk0iuS2Civ5iAF6gOxd8Q7dbhf3uK8rDegdSW3WV2DSMonm1XvVA5MwqsINYihfRaMcmLJcrIZzXK2ViIToWpY1Er0pskRktpykzAXIpMHuDFfvIEB3Y_M5EJ4Hu2xYzwjpumO2Wrxu9moSWqTAm_Bcn0z6Vj5QMVfxe8qSmJBWnzbVA8zGdydxOxOIkiTzDj6qg8prY3QWNC-KC-c2opbyOEai0ft-ebFwWk3yGZykFcwcW1ikn5ttb1jIRYMNXNzonRwHukRqWV_uZkdjfh9Z6miyPUphQrgqw79psvuBRfAcClMRT4w4Nh0Eg_A1MIeRuEJGrruyk4lXZbxwG4z_KyhaoNJTFa9xPYt32X1mTuGsw2v_P5PuBeMYNL87Pi9II1E39lgAbdPJ9xpWhGT5k7pSQ1ux4g30RmpeEAcy4VpyKiEkMGhAnCOJzDv7KFS7DJQgXjkB6LEOPBrQUvr073fN5Yl4lTiGD43Nh6gE0VhutD_56Mh56i50pnKv4DuqqzwakEKXHXGa1ZXvrOPbEJWFGBfDerlEAN8bAFpF4VB3gN0XwqFssjJQKy75QdVlxUrivM1CbRAHs7vgH6fJoioDiQOf9qerKUZxyRJR6HtV3tHoUt_V-W3mbaJRGDRlPjChBrGXqF5MDnH0laIVs91Hhu97s53HTICei9fgT8F--mZ7MRH3O2_Cv0597ykspEE9UX85pW0C_TWqI1a45hV59JzwWsPPemPuaaL8nrUVABHd2QZ0iSxcwW5l3LDKkpdvdZ_2TKaz94m-o2mWd2aOFgSQYeNu0T0OB-ZBkFNgaQAtSxGe6F7rYwuzJloYLIvQxfu1ujAsnJX8qyH6K9v_UiMxPQDUDqsFfw3VDkuZg_XAwjBoykmFNKvil-tW3ORkgWmPySWTa4nX4JZEKWmJit3ROe86QG0mVswx3zTOqg4IpnvOFLFgoGjxhy3G3A78qYjzz1FDocaKLtXp5A0e12TFPRQAr3_iKBFnV6-eDxMS5-cap4htw4tyFIha9jGqdAhdLIm6vpwezin4jVpLCYZAswSrZZaDiQZ0qgj2-QPIF5KQjwwBGAnhBFQKqBwJmg-0T5qKvXomawXENv_DvXuWSUwBVxYyfMWc7qUHjdZDHd9Fyvdk4uESCU_NwRT4t6nxY3p2CWih0F8Ovv7_aTivHVgbEQ6QciUbfqHfwZWRco0AGP38OD6JgZ7rWI7FgMDiFnyYW2gaAmvdsoEDDH2h46OtGj50QoUn24LkjtyAXrdSaqgnixuZqK4mWicNxaB0n_IjGsLGu0LcvFZqBMv_vx8zt7PxsGeIJKlIZOd46tr1S4AmOy9ih6HClK5YM8YDarVsuTTexHZZDNrW7TUn6e2Tf-VMIdStmsfj5yKk5EhPUegHEznEBcgtAceHdqawos-RGDWy2_gMrs_u_i1IvDoyy6KbkT3CBxstbiurVBVWEiBblyFrvvUddHdB7fHyK-xBnXjatVLvlMDzGZjUq2DuT_udFE6kUzNoaM8cFBJVAuoVt3L6QLHkevK715IBxwPaXaTduTcqs7f9uNcTnijyCW9uMdB_m4fPj1NK-kqcmL1hf_T2rh5MKIbjutuKsXYxdYVq0dMbblIrbNgPeuRXEIfT5HcQe81_DH7Scf-uPYQEruB5jAH0uOONR15E41Bs5n4Hw8qFPuPriKHSgyHCgIwcm2DQGoCkq5ds2Opyxk.lSyzTbuCX4AM0_mn_9FQ6A; JSESSIONID=D3ACDBA21FF7153B7A3D8F12BE6FF912] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-02-05 22:16:12,224 INFO o.a.c.c.C.[.[.[/] [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 22:16:12,224 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 22:16:12,227 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-1] Completed initialization in 3 ms
+2025-02-05 22:23:49,040 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:23:49,055 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 22:23:49,070 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 22:25:17,501 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 58179 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 22:25:17,513 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 22:25:17,513 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 22:25:18,111 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 22:25:18,129 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2025-02-05 22:25:18,871 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8090"]
+2025-02-05 22:25:18,871 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 22:25:18,872 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 22:25:18,923 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 22:25:19,228 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 22:25:19,264 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 22:25:19,350 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 22:25:19,400 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 22:25:19,403 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 22:25:19,768 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 22:25:19,780 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 22:25:19,976 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 22:25:19,983 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:25:20,670 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 22:25:20,699 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 22:25:20,699 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 22:25:20,699 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 22:25:20,699 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 22:25:20,729 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 22:25:20,729 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 22:25:20,729 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 22:25:20,729 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 22:25:20,754 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 22:25:20,760 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 22:25:21,059 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8090"]
+2025-02-05 22:25:21,092 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.931 seconds (JVM running for 4.936)
+2025-02-05 22:25:29,613 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:25:29,625 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 22:25:29,631 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 22:25:50,638 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 58256 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 22:25:50,648 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 22:25:50,648 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 22:25:51,251 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 22:25:51,267 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-02-05 22:25:51,966 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:25:51,967 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 22:25:51,968 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 22:25:52,020 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 22:25:52,309 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 22:25:52,333 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 22:25:52,410 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 22:25:52,459 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 22:25:52,460 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 22:25:52,778 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 22:25:52,792 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 22:25:52,939 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 22:25:52,944 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:25:53,500 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 22:25:53,525 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 22:25:53,525 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 22:25:53,525 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 22:25:53,525 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 22:25:53,549 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 22:25:53,549 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 22:25:53,549 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 22:25:53,549 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 22:25:53,571 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 22:25:53,575 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 22:25:53,887 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:25:53,918 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.627 seconds (JVM running for 4.674)
+2025-02-05 22:26:43,500 INFO o.a.t.u.h.p.Cookie [http-nio-8091-exec-1] A cookie header was received [:state=true; userName=Code%20Ninjas; accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbXM1QGdtYWlsLmNvbSIsImlhdCI6MTczODYyMzA5NCwiZXhwIjoxNzM4NjI2Njk0fQ.al97pQpM3FyGcz5IXqXS_u39DAew--KNabF2EhH4RBA; refreshToken=6viUx25LhkpiBBJAZXlUAyAwmQK91Vr5qQZpLfeTpEOMVJZFl56ZpjmD8syjZvmk; tokenExpiredAt=1738626694400; _ga_JL2CM18CEE=GS1.1.1738623093.129.1.1738623113.0.0.0; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..AkeP13sX58-MVpEI.Wg2JIdOTHlpVoshT3oTEwAykx7zKw9tnkQkSPGb7I6pT4zpHIfk0Cg1ZOPFCYBqF0Gw2JqGotNLTcxvh8gm7itzZini4WmHrj2I3W6IVMULnTHyNAh37EDRTKW4_niyJmRJUcSu6praeIIhqA_hORojpLLlpg8RDlrSQ5grg0wAk0iuS2Civ5iAF6gOxd8Q7dbhf3uK8rDegdSW3WV2DSMonm1XvVA5MwqsINYihfRaMcmLJcrIZzXK2ViIToWpY1Er0pskRktpykzAXIpMHuDFfvIEB3Y_M5EJ4Hu2xYzwjpumO2Wrxu9moSWqTAm_Bcn0z6Vj5QMVfxe8qSmJBWnzbVA8zGdydxOxOIkiTzDj6qg8prY3QWNC-KC-c2opbyOEai0ft-ebFwWk3yGZykFcwcW1ikn5ttb1jIRYMNXNzonRwHukRqWV_uZkdjfh9Z6miyPUphQrgqw79psvuBRfAcClMRT4w4Nh0Eg_A1MIeRuEJGrruyk4lXZbxwG4z_KyhaoNJTFa9xPYt32X1mTuGsw2v_P5PuBeMYNL87Pi9II1E39lgAbdPJ9xpWhGT5k7pSQ1ux4g30RmpeEAcy4VpyKiEkMGhAnCOJzDv7KFS7DJQgXjkB6LEOPBrQUvr073fN5Yl4lTiGD43Nh6gE0VhutD_56Mh56i50pnKv4DuqqzwakEKXHXGa1ZXvrOPbEJWFGBfDerlEAN8bAFpF4VB3gN0XwqFssjJQKy75QdVlxUrivM1CbRAHs7vgH6fJoioDiQOf9qerKUZxyRJR6HtV3tHoUt_V-W3mbaJRGDRlPjChBrGXqF5MDnH0laIVs91Hhu97s53HTICei9fgT8F--mZ7MRH3O2_Cv0597ykspEE9UX85pW0C_TWqI1a45hV59JzwWsPPemPuaaL8nrUVABHd2QZ0iSxcwW5l3LDKkpdvdZ_2TKaz94m-o2mWd2aOFgSQYeNu0T0OB-ZBkFNgaQAtSxGe6F7rYwuzJloYLIvQxfu1ujAsnJX8qyH6K9v_UiMxPQDUDqsFfw3VDkuZg_XAwjBoykmFNKvil-tW3ORkgWmPySWTa4nX4JZEKWmJit3ROe86QG0mVswx3zTOqg4IpnvOFLFgoGjxhy3G3A78qYjzz1FDocaKLtXp5A0e12TFPRQAr3_iKBFnV6-eDxMS5-cap4htw4tyFIha9jGqdAhdLIm6vpwezin4jVpLCYZAswSrZZaDiQZ0qgj2-QPIF5KQjwwBGAnhBFQKqBwJmg-0T5qKvXomawXENv_DvXuWSUwBVxYyfMWc7qUHjdZDHd9Fyvdk4uESCU_NwRT4t6nxY3p2CWih0F8Ovv7_aTivHVgbEQ6QciUbfqHfwZWRco0AGP38OD6JgZ7rWI7FgMDiFnyYW2gaAmvdsoEDDH2h46OtGj50QoUn24LkjtyAXrdSaqgnixuZqK4mWicNxaB0n_IjGsLGu0LcvFZqBMv_vx8zt7PxsGeIJKlIZOd46tr1S4AmOy9ih6HClK5YM8YDarVsuTTexHZZDNrW7TUn6e2Tf-VMIdStmsfj5yKk5EhPUegHEznEBcgtAceHdqawos-RGDWy2_gMrs_u_i1IvDoyy6KbkT3CBxstbiurVBVWEiBblyFrvvUddHdB7fHyK-xBnXjatVLvlMDzGZjUq2DuT_udFE6kUzNoaM8cFBJVAuoVt3L6QLHkevK715IBxwPaXaTduTcqs7f9uNcTnijyCW9uMdB_m4fPj1NK-kqcmL1hf_T2rh5MKIbjutuKsXYxdYVq0dMbblIrbNgPeuRXEIfT5HcQe81_DH7Scf-uPYQEruB5jAH0uOONR15E41Bs5n4Hw8qFPuPriKHSgyHCgIwcm2DQGoCkq5ds2Opyxk.lSyzTbuCX4AM0_mn_9FQ6A; JSESSIONID=D3ACDBA21FF7153B7A3D8F12BE6FF912] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-02-05 22:26:43,507 INFO o.a.c.c.C.[.[.[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 22:26:43,507 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 22:26:43,510 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Completed initialization in 3 ms
+2025-02-05 22:34:13,669 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:34:13,686 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 22:34:13,696 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 22:34:27,649 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 59038 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 22:34:27,659 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 22:34:27,659 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 22:34:28,353 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 22:34:28,373 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-02-05 22:34:29,157 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:34:29,158 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 22:34:29,159 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 22:34:29,211 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 22:34:29,615 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 22:34:29,645 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 22:34:29,729 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 22:34:29,785 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 22:34:29,787 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 22:34:30,131 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 22:34:30,143 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 22:34:30,335 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 22:34:30,345 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:34:31,045 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 22:34:31,077 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 22:34:31,077 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 22:34:31,078 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 22:34:31,078 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 22:34:31,108 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 22:34:31,108 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 22:34:31,108 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 22:34:31,108 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 22:34:31,138 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 22:34:31,143 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 22:34:31,461 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:34:31,485 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 4.184 seconds (JVM running for 5.474)
+2025-02-05 22:34:33,680 INFO o.a.c.c.C.[.[.[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 22:34:33,681 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 22:34:33,683 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Completed initialization in 2 ms
+2025-02-05 22:41:58,005 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:41:58,014 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-02-05 22:41:58,028 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-02-05 22:42:14,742 INFO c.s.n.m.NasdasAlgo [main] Starting NasdasAlgo using Java 1.8.0_202 on MacBookAir with PID 59745 (/Users/ray/Documents/workspace/smallbiz/nasdaq-algo/target/classes started by ray in /Users/ray/Documents/workspace/smallbiz/nasdaq-algo)
+2025-02-05 22:42:14,803 DEBUG c.s.n.m.NasdasAlgo [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2025-02-05 22:42:14,803 INFO c.s.n.m.NasdasAlgo [main] No active profile set, falling back to default profiles: default
+2025-02-05 22:42:15,413 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-05 22:42:15,429 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-02-05 22:42:16,173 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:42:16,174 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-02-05 22:42:16,174 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2025-02-05 22:42:16,228 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-02-05 22:42:16,515 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-05 22:42:16,540 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+2025-02-05 22:42:16,619 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-05 22:42:16,668 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-02-05 22:42:16,670 WARN c.z.h.u.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-02-05 22:42:17,006 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-02-05 22:42:17,018 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-05 22:42:17,165 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-05 22:42:17,172 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-05 22:42:17,767 INFO o.j.s.b.s.JaversSqlAutoConfiguration [main] detected Hibernate dialect: MySQL8Dialect
+2025-02-05 22:42:17,792 INFO o.j.r.s.SqlRepositoryBuilder [main] starting SqlRepository...
+2025-02-05 22:42:17,793 INFO o.j.r.s.SqlRepositoryBuilder [main]   dialect:                  MYSQL
+2025-02-05 22:42:17,793 INFO o.j.r.s.SqlRepositoryBuilder [main]   schemaManagementEnabled:  true
+2025-02-05 22:42:17,793 INFO o.j.r.s.SqlRepositoryBuilder [main]   schema name:              null
+2025-02-05 22:42:17,818 INFO o.j.r.s.s.TableNameProvider [main] Commit table:           jv_commit
+2025-02-05 22:42:17,818 INFO o.j.r.s.s.TableNameProvider [main] CommitProperty table:   jv_commit_property
+2025-02-05 22:42:17,818 INFO o.j.r.s.s.TableNameProvider [main] GlobalId table:         jv_global_id
+2025-02-05 22:42:17,818 INFO o.j.r.s.s.TableNameProvider [main] Snapshot table:         jv_snapshot
+2025-02-05 22:42:17,841 INFO o.j.c.JaversBuilder [main] mappingStyle: FIELD
+2025-02-05 22:42:17,845 INFO o.j.c.JaversBuilder [main] loading GuavaAddOns ...
+2025-02-05 22:42:18,183 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8091"]
+2025-02-05 22:42:18,211 INFO c.s.n.m.NasdasAlgo [main] Started NasdasAlgo in 3.785 seconds (JVM running for 4.834)
+2025-02-05 22:42:52,909 INFO o.a.t.u.h.p.Cookie [http-nio-8091-exec-1] A cookie header was received [:state=true; userName=Code%20Ninjas; accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbXM1QGdtYWlsLmNvbSIsImlhdCI6MTczODYyMzA5NCwiZXhwIjoxNzM4NjI2Njk0fQ.al97pQpM3FyGcz5IXqXS_u39DAew--KNabF2EhH4RBA; refreshToken=6viUx25LhkpiBBJAZXlUAyAwmQK91Vr5qQZpLfeTpEOMVJZFl56ZpjmD8syjZvmk; tokenExpiredAt=1738626694400; _ga_JL2CM18CEE=GS1.1.1738623093.129.1.1738623113.0.0.0; JSESSIONID=D3ACDBA21FF7153B7A3D8F12BE6FF912; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..sg0SsFibl3B8H2h6.l3ObS8d5yQRsL-CF_rpml3D_81i2a5gZpr-uBMjezam-6lM7qmKJ1cPFJIT3pydUqmRp_1i2kOkmHUq-kpIwB7Nc12f0gk3YXVLFb1S1GYZ9FYjnLSkAMk11FQ_l543xqoIARldfiH4gI2_8s7DMS9IOqD_yvwsa_Ksb50IfJn7kX5Iy3ib1wJzn5mklorCRBQYPyf9ka1Rznss8CBeUhg2jhWiV01y1J1NrfrFjZ0_81MNA6Aswn8-re3UAUHJ6Gfsi1bjbaQoCQllks7DAZ0duhnihqho7cCGa1A5naBg3pv3TVLnLQE0-DNOIUOazlwszrBheL5iGEVbpTt5CD2px_wIYKlf7dDkzJEs6xUZ46UQ5yjMpmNXnvDikuF4MNbelKQxlg20hoAz-yYl9LLnn77CQU8XSLdgutcg75Mt8kdsSbXesBmTdyrGlD4C_kFuGpycTiPwst_FTfJM6ovJ_CVLE-uQImBg-xajXfO48s6RnVkepQsdkQfN7WXjialthGkS4jTETYE8K-plMeBtII8seFfBzD_4Ptw9SYHQMTUb73INMXclWw3ACkOyyBAjigpkubHYiHaM3Y7qzK-rg82JWrZYMPFqmgR8IHfsKEtKcGUdgSXo3qYfD7jEka5HM16OeSICPv5u92UqGFhKMF5dFKypNT6t5NuuqQAaIBtnbtjwKUUbu5cBtz0XAKPYLk0zHJSAlGN_xirxHH7q2K_L30hur6_53TN9UKBjwlH2sZCpgsoQiM5s6UQ8PRwAGZrPf1WbAmY7tdfX91j3tq4OjTzuZBWgveN5X9e4vEJQO_AcpXYwiXlzTNM9LcDWJEIzoFeCX2qt4b2F547ieeAxZBr5H2eLZycgFnW2oqMn_tdr_qO78Qj389FUdT8daRgXxjN0hdh-fYGU_tHT_A4YSB_f3ClNlTXQEtcG5j0j7I6rQd4leMjLck6Z4veL1zJnwbYdku8IPuNPGudNU8mBSoRpf6ii-piiFwI_iL0kXjbfIGcbYXhAfBJWgLgOZ0EIa6-yte0h5vpRD2XitetKImBlEQC0Ee8aqG6SVDluGaq1Q9ReS55eyA59YSW3PCY3zboamj7swvqIOVxaKNXp_Qzxhj-rlWV-P4-QNxXwvaxP6fvl1YGVApCKkwgKywZI_Xn2Qps61Hu7Ph9ik14MNGuvTl1MVawQribDatpxvHkcTGG5-Su9uOBFs9MpUPj6_-eOYqyL5wun8Z4CI-JUCaD1TtjWBTZglRW9e3xI9YfaZinWY700ZpRK1A3GdZOs8xuOjhlv-gMxGsL2_fgtJ1BidJeYq_fAB1lSCydf3uGVlE1pJjnajYWJqmWg0CVxGjrmeNDJCzi14rDCrr-zyZkVb1BfHnaIKSy8nsI_TXW62CrfL0qlZSG126Nvn7K7up0JRN5cibOZ_t1kmDFG6oqsQtm1FIIseq2OtHK03w8g85pMNNDORPMilZxEZxZltfJhnmDYikHV7pNsXcUSUtk_65HMJD4pvjKDb8Pe5gxqxYZKCeBwAK8dvf0m6UhZNWEITMuY2fZkhDfkx_rqjUhebWjtkvkkpL9mDm5RfLcRWokA8VapKPDlTxJOpFysp-sK6Mg4CsfS8GxORnH1wkCOElTTrQctsyU23b23rKg01LO-FRO7U7_FmQ67HTXsFUd3vTBGfHDy1oesV2ZqgqOifuttT9iHnD_7Iz06UF63AYB5fe46qdwJedwhxHZQ9yM8pcTf9QZZEj7FV9iRLryFrFn113NXRQp95YO8LuE5dqZBwflUupm9e2BQ3hhNwR32DSDXHWwgXAsA1Lou6oZjXt9_nwVtdIj7Xu0GACm88fsLQDF2XKCrPGeOaBrseVvt2wT8ZLOvMNLy-LHKb-GuTj3Y.9wBFwnm9KSYRC68f9skxtw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-02-05 22:42:52,915 INFO o.a.c.c.C.[.[.[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-05 22:42:52,915 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-02-05 22:42:52,917 INFO o.s.w.s.DispatcherServlet [http-nio-8091-exec-1] Completed initialization in 2 ms
